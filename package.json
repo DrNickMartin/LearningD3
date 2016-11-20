@@ -4,7 +4,7 @@
   "description": "Simple web app where I'm learning how to use D3.js",
   "main": "app/app.js",
   "scripts": {
-    "start": "node -e css,ejs,js,json --watch app"
+    "start": "node app/app.js"
   },
   "author": "Nick Martin",
   "license": "MIT",
