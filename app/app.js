@@ -11,6 +11,7 @@ app.locals.siteTitle = 'Learning D3';
 
 app.use(express.static('app/public'));
 app.use(require('./routes/index'));
+app.use(require('./routes/shapes'));
 
 var server = app.listen(app.get('port'), function() {
   console.log('Listening on port ' + app.get('port'));
